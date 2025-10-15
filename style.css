@@ -24,3 +24,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.logo {
+  max-width: 300px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+header.site {
+  text-align: center;
+}
