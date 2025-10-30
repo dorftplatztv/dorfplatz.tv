@@ -1,0 +1,24 @@
+title: Dorfplatz TV
+description: Ortsrundgänge, Dorfleben & Termine
+url: "https://dorfplatz.tv"   # <-- exakt eure Domain
+baseurl: ""                   # Root der Domain
+lang: de
+timezone: Europe/Berlin
+
+# Remote Theme (offizielle GitHub Pages Themes)
+remote_theme: daattali/beautiful-jekyll@6.0.1
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation (einfach gehalten)
+navbar-links:
+  Start: /
+  Beiträge: /#blog
+  Impressum: /impressum/
+  Datenschutz: /datenschutz/
+
+# SEO (optional)
+author: Dorfplatz TV
