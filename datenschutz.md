@@ -34,5 +34,6 @@ Diese Seite enthält Links zu externen Plattformen (z. B. Twitch, Instagram).
 Beim Anklicken dieser Links gelten die jeweiligen Datenschutzbestimmungen der Anbieter.
 
 ---
-
-[← Zurück zur Startseite](/)
+<p align="center">
+  <a href="/" class="btn">⬅️ Zurück zur Startseite</a>
+</p>

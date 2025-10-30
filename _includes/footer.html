@@ -1,5 +1,18 @@
 <footer class="site-footer">
-  <div class="wrapper">
-    <small>&copy; {{ "now" | date: "%Y" }} Dorfplatz TV</small>
+  <div class="wrapper" style="text-align:center;">
+    <p>© {{ "now" | date: "%Y" }} Dorfplatz TV – Ein Projekt von Timo & Christian</p>
+
+    <div style="margin-top:.5rem;">
+      {% assign links = site['social-network-links'] %}
+      {% if links %}
+        {% for pair in links %}
+          {% assign network = pair[0] %}
+          {% assign url = pair[1] %}
+          <a href="{{ url }}" target="_blank" rel="noopener" style="margin:0 .4rem;">
+            <i class="fab fa-{{ network }} fa-lg"></i>
+          </a>
+        {% endfor %}
+      {% endif %}
+    </div>
   </div>
 </footer>

@@ -24,4 +24,7 @@ Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch k
 
 ---
 
-[← Zurück zur Startseite](/)
+<p align="center">
+  <a href="/" class="btn">⬅️ Zurück zur Startseite</a>
+</p>
+

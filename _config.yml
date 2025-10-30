@@ -1,11 +1,17 @@
+# -------------------------------------------------------------
+# 🌳 DORFPLATZ TV – Jekyll Site Configuration
+# -------------------------------------------------------------
+
 title: Dorfplatz TV
-description: Ortsrundgänge, Dorfleben & Termine
-url: "https://dorfplatz.tv"   # <-- exakt eure Domain
-baseurl: ""                   # Root der Domain
+description: CityWalks, Rundgänge & Dorfleben aus Deutschland
+url: "https://dorfplatz.tv"
+baseurl: ""                       # Root der Domain
 lang: de
 timezone: Europe/Berlin
 
-# Remote Theme (offizielle GitHub Pages Themes)
+# -------------------------------------------------------------
+# Theme & Plugins
+# -------------------------------------------------------------
 remote_theme: daattali/beautiful-jekyll@6.0.1
 
 plugins:
@@ -13,12 +19,53 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Navigation (einfach gehalten)
+# -------------------------------------------------------------
+# Navigation / Menü
+# -------------------------------------------------------------
 navbar-links:
   Start: /
-  Beiträge: /#blog
+  Beiträge: /blog/
+  Orte: /orte/
+  Über uns: /about/
   Impressum: /impressum/
   Datenschutz: /datenschutz/
 
-# SEO (optional)
-author: Dorfplatz TV
+# -------------------------------------------------------------
+# Social & Meta
+# -------------------------------------------------------------
+author: "Dorfplatz TV"
+email: "dorfplatztv@gmail.com"
+social-network-links:
+  youtube: "https://www.youtube.com/@dorfplatztv"
+  twitch: "https://www.twitch.tv/dorfplatztv"
+  instagram: "https://www.instagram.com/dorfplatz.tv"
+
+# -------------------------------------------------------------
+# Blog Einstellungen
+# -------------------------------------------------------------
+excerpt_separator: <!--more-->
+feed_show_excerpt: true
+show_excerpts: true
+date_format: "%-d.%-m.%Y"
+
+# -------------------------------------------------------------
+# Design / Layout Options (Theme-intern)
+# -------------------------------------------------------------
+navbar-var-color: "#005b3a"
+navbar-var-bg: "#e3f2e3"
+footer-external-links:
+  - name: Kontakt
+    url: "mailto:dorfplatztv@gmail.com"
+  - name: Impressum
+    url: "/impressum/"
+  - name: Datenschutz
+    url: "/datenschutz/"
+footer-text: "© {{ 'now' | date: '%Y' }} Dorfplatz TV – Ein Projekt von Timo & Christian"
+
+# -------------------------------------------------------------
+# Markdown Engine (Standard reicht; Inline-HTML erlaubt)
+# -------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: Kramdown
+  hard_wrap: false
