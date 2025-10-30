@@ -4,7 +4,7 @@ title: "Unser erster CityWalk: Kleinensiel"
 subtitle: "Ein Spaziergang durch die Gemeinde Stadland"
 author: "Dorfplatz TV"
 tags: [CityWalk, Stadland, Kleinensiel, Wesermarsch]
-cover-img: /assets/dorfplatz-logo.png
+cover-img: /assets/banner.png
 ---
 
 Wir freuen uns, unseren **ersten offiziellen CityWalk** präsentieren zu dürfen:  

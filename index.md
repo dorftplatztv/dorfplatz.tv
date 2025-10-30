@@ -27,7 +27,7 @@ Wir produzieren CityWalk-Videos, Rundgänge
 und helfen Gemeinden dabei, ihre lokale Identität digital zu zeigen.
 
 <p align="center">
-  <a href="#blog" class="btn btn-primary">➡️ Zu den Beiträgen</a>
+  <a href="blog" class="btn btn-primary">➡️ Zu den Beiträgen</a>
   <a href="mailto:dorfplatztv@gmail.com" class="btn">📬 Kontakt aufnehmen</a>
 </p>
 </div>
